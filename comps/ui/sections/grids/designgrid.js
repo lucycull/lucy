@@ -15,12 +15,10 @@ export default function PhotoGrid() {
                     <a href="https://behance.net" rel="noopener" target="_blank"><img className="rect" src="/design/05.png" alt="Photo Text"/></a>
                 </div>
                 <style jsx>{`
-                    .container {display: flex; flex-direction: column; margin: -10rem 0 0 0;}
                     .row {display: flex; flex-direction: column; align-items: center;}
                     img {margin: .5rem 0; cursor: pointer;}
                     .square {width: 90vw; height: 90vw;}
                     .rect {width: 88vw;}
-                    @media(min-width: 760px) {.container {margin: -15rem 0 0 0;}} 
                     @media(min-width: 1020px) {.row {flex-direction: row;} .square{width: 300px; height: 300px;} .rect{width: 600px; height: 300px;}}
                     @media(min-width: 1360px) {.row {flex-direction: row;} .square{width: 300px; height: 300px;} .rect{width: 600px; height: 300px;}}
                     @media(min-width: 1920px) {.row {flex-direction: row;} .square{width: 400px; height: 400px;} .rect{width: 700px; height: 400px;}}

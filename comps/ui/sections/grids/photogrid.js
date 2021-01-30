@@ -18,20 +18,19 @@ export default function PhotoGrid() {
                 </div>
                 <style jsx>{`
                     .container {
-                        display: flex; flex-direction: column; margin: -10rem 0 0 0;
+                        display: flex; flex-direction: column;
                     }
                     .row {
                         display: flex; flex-direction: column; align-items: center;
                     }
                     img {
-                        width: 90vw; height: 90vw; margin: .5rem 0;
+                        width: 90vw; height: 90vw; margin: .5rem;
                     }
-                    @media(min-width: 760px) {.container {margin: -15rem 0 0 0;}} 
                     @media(min-width: 1020px) {.row {flex-direction: row;} img {width: 300px; height: 300px;}}
                     @media(min-width: 1360px) {.row {flex-direction: row;} img {width: 350px; height: 350px;}}
                     @media(min-width: 1920px) {.row {flex-direction: row;} img {width: 500px; height: 500px;}}
                     @media(min-width: 2560px) {.row {flex-direction: row;} img {width: 600px; height: 600px;}}
-                    @media(min-width: 3000px) {.container {margin: -25rem 0 0 0;}.row {flex-direction: row;} img {width: 1000px; height: 1000px; margin: .5rem;}}
+                    @media(min-width: 3000px) {.container {margin: -25rem 0 0 0;}.row {flex-direction: row;} img {width: 1000px; height: 1000px;}}
                 `}</style>
             </div>
 )}

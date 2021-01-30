@@ -5,7 +5,7 @@ export function Standard({head, sub, buttonText, buttonUrl, buttonVariant, butto
     <div className={css.container}>
       <div className={css.contents}>
         <h1>{head}</h1>
-        <p>{sub}</p>
+        <p style={{margin: '.5rem auto 0 auto'}}>{sub}</p>
         <Button text={buttonText} url={buttonUrl} variant={buttonVariant} bg={buttonBg} hov={buttonHov}
         />
       </div>
@@ -17,7 +17,7 @@ export function NoButton({head, sub}) {
     <div className={css.container}>
       <div className={css.contents}>
         <h1 style={{fontSize: '1.8rem'}}>{head}</h1>
-        <p>{sub}</p>
+        <p style={{margin: '.5rem auto 0 auto'}}>{sub}</p>
       </div>
     </div>
   );

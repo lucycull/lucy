@@ -1,0 +1,35 @@
+#form {
+    display: flex;
+    flex-direction: column;
+}
+#form input, #form textarea {
+    border-radius: var(--radius);
+    width: 80vw;
+    height: 50px;
+    text-align: center;
+    border: none;
+    box-shadow: var(--shadow);
+    margin: .5rem 0;
+}
+#form textarea {
+    height: 150px;
+    resize: none;
+}
+#form input, #form textarea, #form button {
+    font-family: inherit;
+    font-weight: 400;
+    color: var(--black);
+    letter-spacing: inherit;
+}
+#form ::placeholder {
+    color: var(--black);
+    opacity: .65;
+}
+#form button {
+    min-width: 180px;
+}
+@media(min-width: 760px) {
+    #form input, #form textarea {
+        width: 450px;
+    }
+}

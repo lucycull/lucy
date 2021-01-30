@@ -12,9 +12,7 @@ export default function Logo({url}) {
 	</Link>
 			<style jsx>{`
 			img {
-				width: 140px;
-				height: 40px;
-				object-fit: cover;
+				width: 70px;
 			}
 		`}</style>
 		</>

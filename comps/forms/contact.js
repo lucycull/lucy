@@ -1,54 +1,45 @@
-import {useState} from "react";
+import {useState} from "react"
+import Button from '../ui/comps/button'
+import css from './contact.module.css'
 export default function ContactForm() {
-  const [
-    form,
-    setForm = useState({
-      name: "",
-      email: "",
-      reason: "",
-      message: "",
-      sent: false,
-      buttonText: "Send!",
-      err: "",
-    }),
-  ];
+  const [form, setForm] = useState({name: '', email: '', message: '', sent: false, buttonText: "Send!", err:''})
   function handleChange(e) {
-    const { name, value } = e.target;
+    const { name, value } = e.target
     setForm({
       ...form,
-      [name]: value,
+      [name]: value
     });
   }
   function resetForm() {
-    var fe = document.getElementsByClassName("fe");
+    var fe = document.getElementsByClassName("fe")
     setForm({
       name: "",
       email: "",
       message: "",
-      reason: "",
       sent: false,
       buttonText: "Send!",
       err: "",
     });
-    document.getElementById("send").classList.remove("btnerror");
+    document.getElementById("send").classList.remove("btnerror")
     for (var i = 0; i < fe.length; i++) {
-      fe[i].classList.remove("fechange");
+      fe[i].classList.remove("fechange")
     }
   }
   function sendForm(e) {
-    e.preventDefault();
-    var fe = document.getElementsByClassName("fe");
+    e.preventDefault()
+    console.log(form)
+    var fe = document.getElementsByClassName("fe")
     for (var i = 0; i < fe.length; i++) {
-      fe[i].classList.add("fechange");
+      fe[i].classList.add("fechange")
     }
     setForm({
       ...form,
       buttonText: "Sending...",
-    });
+    })
     // Send Contact Form Logic Here
   }
   return (
-    <form>
+    <form id={css.form}>
       <input
         id="name"
         name="name"
@@ -64,24 +55,11 @@ export default function ContactForm() {
         name="email"
         type="email"
         className="fe"
-        placeholder="Email"
+        placeholder="E-Mail"
         value={form.email}
         onChange={handleChange}
         required
       />
-      <select
-        id="reason"
-        name="reason"
-        className="fe"
-        value={form.reason}
-        onChange={handleChange}
-        required
-      >
-        <option value="title">Reason for contacting?</option>
-        <option value="work">Work with me</option>
-        <option value="questions">Any questions?</option>
-        <option value="other">Other</option>
-      </select>
       <textarea
         id="message"
         name="message"
@@ -91,15 +69,9 @@ export default function ContactForm() {
         onChange={handleChange}
         required
       />
-      <input
-        id="send"
-        name="send"
-        type="submit"
-        value={form.buttonText}
-        onClick={sendForm}
-      />
+      <div style={{margin: '0 auto', width: '150'}}>
+        <Button text="Send!" url="/example" variant="primary"/>
+      </div>
     </form>
   );
 }
-
-

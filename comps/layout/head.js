@@ -16,7 +16,7 @@ export default function HeadContents({description, pageTitle}) {
 	        <meta property='twitter:title' content={title}/>
    	    	<meta property='twitter:description' content={description}/>
             <meta property='twitter:image' content='/meta/og.png'/>
-	        <link rel='icon' type='image/svg+xml' href='/icons/fav.svg'/>
+	        <link rel='icon' type='image/svg+xml' href='/icons/logo.svg'/>
 			<link rel="preconnect" href="https://fonts.gstatic.com"/>
 			<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;600;700&display=swap" rel="preload" rel="stylesheet"/> 
 		</Head>

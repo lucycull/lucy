@@ -1,0 +1,12 @@
+.post {
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.post img { 
+    width: 90vw;
+}
+.post h3, .post p {
+    width: 84vw;
+}

@@ -1,11 +1,11 @@
 .container {
     width: 100vw;
-    height: 87vh;
     display: grid;
     place-items: center;
 }
 .contents {
     text-align: center;
+    padding-top: 5rem;
     height: 50vh;
 }
 .contents h1 {
@@ -23,6 +23,10 @@
     }
 }
 @media(min-width: 760px) {
+    .container {
+        height: 30vh;
+        padding-top: 5rem;
+    }
     .contents {
         height: 30vh;
     }
