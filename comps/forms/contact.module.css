@@ -27,6 +27,11 @@
 }
 #form button {
     min-width: 180px;
+    margin-top: 2rem;
+    background: var(--primary); border: 0;
+}
+#form button:hover {
+    background: var(--grey);
 }
 @media(min-width: 760px) {
     #form input, #form textarea {
