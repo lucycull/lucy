@@ -1,0 +1,34 @@
+.container {
+    width: 100vw;
+    height: 87vh;
+    display: grid;
+    place-items: center;
+}
+.contents {
+    text-align: center;
+    height: 50vh;
+}
+.contents h1 {
+    font-weight: 600;
+}
+.contents p {
+    margin: 1.5rem 0 5rem 0;
+}
+@media(min-width: 640px) {
+    .container {
+        padding-bottom: 10rem;
+    }
+    .container p {
+        margin: 1.5rem 0 2rem 0;
+    }
+}
+@media(min-width: 760px) {
+    .contents {
+        height: 30vh;
+    }
+}
+@media(min-width: 1020px) {
+    .contents {
+        height: 15vh;
+    }
+}

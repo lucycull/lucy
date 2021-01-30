@@ -1,0 +1,9 @@
+#nav{display: none;}
+@media(min-width: 760px) {
+    #menubtn {display: none;}
+    #nav {display: flex; flex: auto; justify-content: flex-end;}
+    #nav ul {display: flex;}
+    #nav ul li {margin: 0 .4rem;}
+    #nav ul li a {font-size: 1.2rem; color: inherit; margin: 0 .6rem;}
+    #nav ul li a:hover {color: var(--primary);}
+}

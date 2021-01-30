@@ -1,0 +1,11 @@
+.footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 0 2rem .4rem 2rem;
+}
+#right {
+    flex-direction: row-reverse;
+}
