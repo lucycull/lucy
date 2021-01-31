@@ -17,6 +17,7 @@ export default function Menu() {
 		</a>
 		<nav id={css.nav}>
 			<ul>
+			<span id="close" onClick={menuToggle}>&times;</span>
 				{util.navigation.map((link) => (
 					<li key={link.name}>
 						<Link href={`/${link.name.toLowerCase()}`}>
@@ -25,6 +26,53 @@ export default function Menu() {
 					</li>
 				))}
 			</ul>
+			<style jsx>{`
+			nav {
+				display: grid;
+				place-items: center;
+				flex-direction: column;
+				position: absolute; 
+				top: 0;
+				right: 0;
+				width: ${menu ? '-100vw' : '100vw'}
+				height: 100vh;
+			}
+			nav ul {
+				flex-direction: column;
+				width: 100vw;
+				height: 100vh;
+				justify-content: center;
+				align-items: center;
+				background: var(--white);
+				font-size: 2rem;
+				display: ${menu ? 'none' : 'flex'}
+			}
+			nav ul li {
+				margin: 1rem 0;
+			}
+			#close {
+				font-size: 3rem;
+				position: absolute;
+				top: 15px;
+				right: 30px;
+				color: var(--primary);
+				cursor: pointer;
+			}
+			@media(min-width: 760px) {
+				nav, nav ul {
+					width: auto;
+					height: auto;
+					background: transparent;
+					flex-direction: row;
+					justify-content: space-evenly;
+					align-items: center;
+					position: relative;
+				}
+				#close {
+					display: none;
+				}
+			}
+			`}</style>
 		</nav>
 	</>
 )}

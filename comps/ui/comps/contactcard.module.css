@@ -16,6 +16,11 @@
 #card h1 {
     font-size: 1.8rem;
 }
+@media(prefers-color-scheme: dark) {
+    #card {
+        color: var(--black);
+    }
+}
 @media(min-width: 1024px) {
 #card {
   width: 44.4rem;
