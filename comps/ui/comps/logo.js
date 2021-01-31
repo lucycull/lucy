@@ -10,7 +10,7 @@ export default function Logo({url}) {
   		<source 
     		srcset="/icons/logo_dark.svg" 
     		media="(prefers-color-scheme: dark)"/>
-  		<img src="/icons/logo.svg" atl={seo.title}/>
+  		<img src="/icons/logo.svg" alt={seo.title}/>
 	</picture>
 		</a>
 	</Link>
