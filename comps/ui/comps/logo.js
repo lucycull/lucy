@@ -4,7 +4,7 @@ import seo from '../../../config/seo.config'
 export default function Logo({url}) {
 	return (
 	<>
-	<Link href={url}>
+	<Link name="logo-link" href={url}>
 	<a>
 	<picture>
   		<source 
