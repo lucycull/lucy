@@ -19,17 +19,37 @@ export default function Post(post) {
             </div>
             <style jsx>{`
                 .container {
+                    width: 90vw;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                 }
                 .container h1 {
                     font-weight: 500;
+                    text-align: center;
                 }
                 .container img {
-                    width: 800px;
-                    height: 500px;
-                    margin: 3rem 0;
+                    width: 100%;
+                }
+                @media(min-width: 1020px) {
+                    .container img {
+                        width: 700px;
+                        height: 400px;
+                        margin: 1rem 0;
+                    }
+                    .container {
+                        width: 700px;
+                    }
+                }
+                @media(min-width: 3000px) {
+                    .container img {
+                        width: 1400px;
+                        height: 800px;
+                        margin: 1rem 0;
+                    }
+                    .container {
+                        width: 1400px;
+                    }
                 }
             `}</style>
         </Layout>

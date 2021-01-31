@@ -2,7 +2,6 @@ import Link from 'next/link'
 import Post from './post'
 import css from './blog.module.css'
 export default function BlogList({posts}) {
-    console.log(posts)
     return (
         <div id={css.postList}>
             {posts.map(post => {

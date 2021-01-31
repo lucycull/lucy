@@ -34,10 +34,35 @@
     .post {margin: 0 2.5rem;}.post img {width: 500px; height: 500px;}
     #postList a:nth-child(1){margin:0 4.5rem;position:relative}#postList a:nth-child(1) .post img{width:750px;height:500px}#postList a:nth-child(1) .post h3{position:absolute;bottom:80px;left:-100px;color:var(--white)}#postList a:nth-child(1) .post p{display:none}#postList a:nth-child(6){margin:0 3rem;position:relative}#postList a:nth-child(6) .post img{width:750px;height:500px}#postList a:nth-child(6) .post h3{position:absolute;bottom:80px;left:-100px;color:var(--white)}#postList a:nth-child(6) .post p{display:none}#postList a:nth-child(7){margin:0 3rem;position:relative}#postList a:nth-child(7) .post img{width:750px;height:500px}#postList a:nth-child(7) .post h3{position:absolute;bottom:80px;left:-100px;color:var(--white)}#postList a:nth-child(7) .post p{display:none}#postList a:nth-child(10){margin:0 3rem;position:relative}#postList a:nth-child(10) .post img{width:750px;height:500px}#postList a:nth-child(10) .post h3{position:absolute;bottom:80px;left:-100px;color:var(--white)}#postList a:nth-child(10) .post p{display:none}#postList a:nth-child(12){margin:0 3rem;position:relative}#postList a:nth-child(12) .post img{width:750px;height:500px}#postList a:nth-child(12) .post h3{position:absolute;bottom:80px;left:-100px;color:var(--white)}#postList a:nth-child(12) .post p{display:none}#postList a:nth-child(13){margin:0 3rem;position:relative}#postList a:nth-child(13) .post img{width:750px;height:500px}#postList a:nth-child(13) .post h3{position:absolute;bottom:80px;left:-100px;color:var(--white)}#postList a:nth-child(13) .post p{display:none}
 }
+.markdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+}
 .markdown p {
-    max-width: 800px;
+    width: 90vw;
     margin: 1rem 0;
 }
-.markdown p:first-child {
-    margin: 0 0 1rem 0;
+.markdown img {
+    width: 100%;
+    margin: 1rem 0;
+}
+.markdown h1 {
+    font-size: 2.5rem;
+}
+.markdown h1, .markdown h2, .markdown h3 {
+    width: 90vw;
+}
+@media(min-width: 1020px) {
+    .markdown, .markdown h1, .markdown h2, .markdown h3, .markdown p {
+        width: 700px;
+        max-width: 700px;
+    }
+}
+@media(min-width: 3000px) {
+    .markdown, .markdown h1, .markdown h2, .markdown h3, .markdown p {
+        width: 1400px;
+        max-width: 1400px;
+    }
 }
