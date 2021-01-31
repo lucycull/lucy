@@ -13,7 +13,7 @@ export default (req, res) => {
 
     const mailOption = {
         from: process.env.EMAIL,
-        to: process.env.EMAIL,
+        to: process.env.LMAIL,
         subject: `Contact form submitted by ${email}`,
         text: `
             ${name} wrote:
