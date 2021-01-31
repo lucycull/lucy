@@ -8,11 +8,12 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"next": "latest",
 		"react": "latest",
 		"react-dom": "latest",
+		"next": "latest",
 		"gray-matter": "latest",
 		"remark": "latest",
-		"remark-html": "latest"
+		"remark-html": "latest",
+		"nodemailer": "^6.4.17"
 	}
 }

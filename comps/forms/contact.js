@@ -1,3 +1,4 @@
+import Router from "next/dist/next-server/lib/router/router"
 import {useState} from "react"
 import Button from '../ui/comps/button'
 import css from './contact.module.css'
@@ -10,21 +11,6 @@ export default function ContactForm() {
       [name]: value
     });
   }
-  function resetForm() {
-    var fe = document.getElementsByClassName("fe")
-    setForm({
-      name: "",
-      email: "",
-      message: "",
-      sent: false,
-      buttonText: "Send",
-      err: "",
-    });
-    document.getElementById("send").classList.remove("btnerror")
-    for (var i = 0; i < fe.length; i++) {
-      fe[i].classList.remove("fechange")
-    }
-  }
   function sendForm(e) {
     e.preventDefault()
     var fe = document.getElementsByClassName("fe")
@@ -33,9 +19,22 @@ export default function ContactForm() {
     }
     setForm({
       ...form,
-      buttonText: "Sending...",
+      buttonText: "Sent",
     })
-    // Send Contact Form Logic Here
+    fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: form.name,
+        email: form.email,
+        message: form.message,
+      }),
+    }).then((res) => {
+      console.log('Fetch: ', res)
+    })
   }
   return (
     <form id={css.form}>
