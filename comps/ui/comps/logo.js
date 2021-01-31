@@ -13,6 +13,7 @@ export default function Logo({url}) {
 			<style jsx>{`
 			img {
 				width: 70px;
+				cursor: pointer;
 			}
 		`}</style>
 		</>
