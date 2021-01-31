@@ -5,10 +5,14 @@ export default function Logo({url}) {
 	return (
 	<>
 	<Link href={url}>
-		<img
-			src="/icons/logo.svg"
-			alt={seo.title}
-		/>
+	<a>
+	<picture>
+  		<source 
+    		srcset="/icons/logo_dark.svg" 
+    		media="(prefers-color-scheme: dark)"/>
+  		<img src="/icons/logo.svg" atl={seo.title}/>
+	</picture>
+		</a>
 	</Link>
 			<style jsx>{`
 			img {

@@ -34,8 +34,9 @@ export default function Menu() {
 				position: absolute; 
 				top: 0;
 				right: 0;
-				width: ${menu ? '-100vw' : '100vw'}
+				width: ${menu ? '100vw' : '-100vw'};
 				height: 100vh;
+				transition: .4s ease;
 			}
 			nav ul {
 				flex-direction: column;
@@ -45,7 +46,8 @@ export default function Menu() {
 				align-items: center;
 				background: var(--white);
 				font-size: 2rem;
-				display: ${menu ? 'none' : 'flex'}
+				display: ${menu ? 'flex' : 'none'};
+				transition: .4s ease;
 			}
 			nav ul li {
 				margin: 1rem 0;
