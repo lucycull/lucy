@@ -1,38 +1,39 @@
 ---
 id: 02
-title: 'Try Out Codespaces Now'
-coverImage: 'https://miro.medium.com/max/1400/1*f-qFtrJ0aF69P2GceZIQMw.png'
+title: 'About Me'
+coverImage: 'https://miro.medium.com/max/1400/1*oiRFcG_BLgZk7gcD8tEh9g.jpeg'
 date: '2020-05-15T05:35:07.322Z'
 author:
-  name: Mac Hooper
-excerpt: 'This was quite a special experience'
+  name: Lucy Cull
+excerpt: 'I’m a 20-year-old student'
 ---
-You likely have already heard of Codespaces, stuck waiting for your Beta invite? You can use it now, albeit without the ability to open the space directly from Github. How is this you may ask? Hosting your own Codespaces enviroment. Follow the instructions below to find out how!
+I’m a 20-year-old student currently studying Music Promotion at Solent University, Southampton.
+After finishing college I wasn’t really sure what I wanted to do, most people were off to university but I was adamant that it wasn’t the right route for me. My art teachers and tutor would badger me about it all the time asking why I wasn’t going, and what I was going to do instead, to which the answer was “I don’t know”. I eventually gave in and chose to do an art foundation course for a year to give me some extra time to decide.
 
-**Setting up a machine to host the codespaces enviroment.**
 
-You can use your own machine or server if you have one, or in my case as I didn’t want my desktop running non-stop mostly due to noise, I setup a linux based VM on Google Cloud Platform.
 
-![](https://cdn-images-1.medium.com/max/5760/1*AP1agBHk_GwMMyhZ_ayQng.png)
+The art foundation taught me a lot in terms of confidence, not only in my artwork and photography but in myself outside of education. I was encouraged to make mistakes, experiment and solves problems, my sketchbook wasn’t full of completed pieces that had all gone exactly to plan but it was more of a journey. This course helped me make the decision to go to uni, but not in the way most people thought it would.
 
-Once this was complete with a nice simple Debian install I allowed Chrome Remote Desktop by install the .deb file, installed XFCE, and pasted in my remote desktop headless code. This allowed me to access my Virtual Machine with a Desktop Enviroment, meaning I could setup and run VSCode.
 
-**Prepping VSCode**
 
-Make sure you have an Azure account, you can get one [here](azure.microsoft.com). Then you install the following plugins on VSCode.
+The confidence I gained through the foundation course helped me get more involved in my passion for music. I’ve been an in-house photographer since November 2018, and this encouraged me to start going to gigs on my own (I’d not really been anywhere on my own before this point) and being behind my camera really helped with the anxiety I initially felt. Soon after I decided that I wanted to become even more involved in the industry, and that’s when I came across the course Music Promotion, which allowed for my creativity as well as musical passion.
 
-[Codespaces](https://marketplace.visualstudio.com/items?itemName=ms-vsonline.vsonline)
 
-[Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)
 
-Next you sign in to your Azure account using the VSCode extension and select the new Codespaces section from your left hand sidebar it is located above the extensions tab and below the run tab. Within this section you click `Register Self Hosted Codespace` follow the on screen instructions and your Codespace is all setup and ready to be used.
+Since being at uni I have discovered a newfound interest in website / app designing, graphic design and prototyping. For an assignment I had to design a website for a hypothetical music-based theme of my choice, such as a festival, using Adobe XD. Having never used the programme before and only being taught the very basics of the programme, I took it upon myself to learn it properly and I really enjoyed the process. My boyfriend was also developing his coding skills further at the time and creating himself a portfolio of websites, which furthered my interest in the design side of things, especially when Mac said he could them into actual websites, helping my design portfolio and skills as well as his development portfolio and skills.
 
-**Using your Codespace**
 
-This is the simple bit, login to your [Codespaces area](https://visualstudio.com/services/visual-studio-codespaces). and you will see your Codespace enviroments listed, you can view all the details by clicking on it. However to get started developing you want to click `Create Codespace` in the top right, give the space a name, link it to a Github repo and choose the specs of the virtual machine. The last option allows you to set the space to auto suspend if left idle. Click create and your Codespace will begin to generate.
 
-![](https://cdn-images-1.medium.com/max/5760/1*f-qFtrJ0aF69P2GceZIQMw.png)
+This soon led onto a business idea and ‘Adapt Studio’ was created, our web development start-up company. I’m going to write a blog post about Adapt so I can go a bit more in depth with it but so far, we’re in the process of building our portfolio.
 
-That’s all there is too it, view the post below to see how to enable preferences sync meaning that all of your Codespaces no matter where you open them, from your laptop, iPad or desktop will all have the same themes and extensions installed.
 
-[Unify your devices with the same VSCode themes and Extensions](https://medium.com/@machooper_69036/unify-your-devices-with-the-same-vscode-themes-and-extensions-a9a4f25ac8d7?source=your_stories_page---------------------------)
+
+Outside of work and school, my hobbies include photography, which I have been doing properly since the age of 16. I mainly do gig photography, but I really enjoy taking portraiture shots and I’ve been practicing taking photos of Mac skateboarding recently, although he has broken his wrist so that’s been put on hold for a bit whilst he heals.
+
+
+
+I really enjoy reading as well, so I’ll be doing some book reviews at some point. After finishing up at the hospital in Reading for Mac’s wrist the other day we ended up in HMV where they had a book offer on of 2 for £6… 10 books later we eventually left.
+
+
+
+I’m also vegetarian transitioning into going vegan, and I really enjoy cooking and baking so I might share a few recipes along the way too, otherwise my blog is likely going to be a bit of everything for a while, so expect to read all sorts from book reviews, TV suggestions, an array of music-based topics, fitness, life at university, life in general and probably a lot more too!
