@@ -9,7 +9,7 @@ export default function ContactCard() {
             <h2>
                 You can drop me an email{" "}
                 <Link href="/contact">
-                    <a style={{textDecoration: 'underline'}}>here</a>
+                    <a name="Go to contact page" style={{textDecoration: 'underline'}}>here</a>
                 </Link>
             </h2>
             <p> Alternatively you can contact me via my socials… </p>
