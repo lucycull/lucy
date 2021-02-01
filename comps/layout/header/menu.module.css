@@ -4,7 +4,7 @@
     #nav ul {display: flex;}
     #nav ul li {margin: 0 .4rem;}
     #nav ul li a {font-size: 1.2rem; color: inherit; margin: 0 .6rem;}
-    #nav ul li a:hover {color: var(--secondary);}
+    #nav ul li a:hover {color: var(--primary);}
 }
 @media(prefers-color-scheme: dark) {
     #menubtn svg {
