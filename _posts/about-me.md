@@ -1,39 +1,34 @@
 ---
 id: 02
 title: 'About Me'
-coverImage: 'https://miro.medium.com/max/1400/1*oiRFcG_BLgZk7gcD8tEh9g.jpeg'
-date: '2020-05-15T05:35:07.322Z'
+coverImage: '/blog/about.webp'
+date: '2021-02-01T05:35:07.322Z'
 author:
   name: Lucy Cull
-excerpt: 'I’m a 20-year-old student'
+excerpt: 'Hi my name is Lucy'
 ---
-I’m a 20-year-old student currently studying Music Promotion at Solent University, Southampton.
-After finishing college I wasn’t really sure what I wanted to do, most people were off to university but I was adamant that it wasn’t the right route for me. My art teachers and tutor would badger me about it all the time asking why I wasn’t going, and what I was going to do instead, to which the answer was “I don’t know”. I eventually gave in and chose to do an art foundation course for a year to give me some extra time to decide.
+Hi my name is Lucy, I’m currently a student studying Music Promotion at Solent University.
 
 
-
-The art foundation taught me a lot in terms of confidence, not only in my artwork and photography but in myself outside of education. I was encouraged to make mistakes, experiment and solves problems, my sketchbook wasn’t full of completed pieces that had all gone exactly to plan but it was more of a journey. This course helped me make the decision to go to uni, but not in the way most people thought it would.
-
+I have been doing art and design for about six years and photography for four years. In this time I have curated my own exhibition space, photographed a number of bands at venues across Southampton, produced the photo content for an infant school prospectus and started up a potential web design and development company.
 
 
-The confidence I gained through the foundation course helped me get more involved in my passion for music. I’ve been an in-house photographer since November 2018, and this encouraged me to start going to gigs on my own (I’d not really been anywhere on my own before this point) and being behind my camera really helped with the anxiety I initially felt. Soon after I decided that I wanted to become even more involved in the industry, and that’s when I came across the course Music Promotion, which allowed for my creativity as well as musical passion.
+In my spare time, I enjoy reading, creating art, taking photos and travelling. I’ve been lucky enough to visit cities such as London, New York, Amsterdam, Rome, Belfast and I hope to visit many more in the future. I enjoy exploring lesser-known places throughout these destinations as well as the obvious tourist attractions and cultural sites. 
 
 
-
-Since being at uni I have discovered a newfound interest in website / app designing, graphic design and prototyping. For an assignment I had to design a website for a hypothetical music-based theme of my choice, such as a festival, using Adobe XD. Having never used the programme before and only being taught the very basics of the programme, I took it upon myself to learn it properly and I really enjoyed the process. My boyfriend was also developing his coding skills further at the time and creating himself a portfolio of websites, which furthered my interest in the design side of things, especially when Mac said he could them into actual websites, helping my design portfolio and skills as well as his development portfolio and skills.
-
+The most recent books I have enjoyed the most include The Illustrated Man which I plan to feature a review about on my blog, The Complete Robot, American Psycho and The Light Between Oceans. 
 
 
-This soon led onto a business idea and ‘Adapt Studio’ was created, our web development start-up company. I’m going to write a blog post about Adapt so I can go a bit more in depth with it but so far, we’re in the process of building our portfolio.
+Most recently I have discovered an interest in web design, logo creation and digital art which is where the inspiration to create my own website came from. I had a lot of fun designing how my site would look and though I re-designed several times I could see myself improving with each one. I now feel confident in creating diverse web designs for a variety of different purposes as well as branding and logo designs. 
 
 
-
-Outside of work and school, my hobbies include photography, which I have been doing properly since the age of 16. I mainly do gig photography, but I really enjoy taking portraiture shots and I’ve been practicing taking photos of Mac skateboarding recently, although he has broken his wrist so that’s been put on hold for a bit whilst he heals.
-
+One of my biggest hobbies is photography though, it feels natural to have a camera in my hand. I was lucky enough to be able to combine my love of music with my passion for photography and work as a freelance in-house photographer at the local grassroots venue The Joiners in Southampton, as well as other venues in the area. As well as gig photography I have also taken photos at an Infant School in Eastleigh for a prospectus which you can view here: [https://primarysite-prod-sorted.s3.amazonaws.com/hiltingbury-infant/UploadedDocument/007f1694f1db431e8a7eb00a6d0dfc5e/hiltingbury-infant-school-prospectus-2020.pdf](https://primarysite-prod-sorted.s3.amazonaws.com/hiltingbury-infant/UploadedDocument/007f1694f1db431e8a7eb00a6d0dfc5e/hiltingbury-infant-school-prospectus-2020.pdf). 
 
 
-I really enjoy reading as well, so I’ll be doing some book reviews at some point. After finishing up at the hospital in Reading for Mac’s wrist the other day we ended up in HMV where they had a book offer on of 2 for £6… 10 books later we eventually left.
+During the Coronavirus lockdown in 2020, my boyfriend and I started making websites together (I can design and he can code) as a way of practising and solidifying our skills. This soon turned into the potential for a business, and we started to create these sites more seriously. Working on our own brand, logo and website we created our design and development company Adapt Studio, which you can find on various socials and our website. We have also decided to expand our studio into all media creation such as podcasts and YouTube videos, including a music podcast called The Track.
 
 
+Since moving out for university I have found enjoyment in cooking and baking too, after starting to eat on a vegan diet I have loved finding new and tasty recipes, both sweet and savoury, to try out! I am health conscious so I try to eat healthy (with a few naughty days here and there) which makes cooking even more fun. As well as healthy eating I like to exercise, particularly swimming and I do yoga regularly as it helps to organise my thoughts, push my body and keep me feeling healthy. I started working out properly during my first year of university and I’ve found its improved other areas of my life such as sleeping, energy levels, concentration and motivation.
 
-I’m also vegetarian transitioning into going vegan, and I really enjoy cooking and baking so I might share a few recipes along the way too, otherwise my blog is likely going to be a bit of everything for a while, so expect to read all sorts from book reviews, TV suggestions, an array of music-based topics, fitness, life at university, life in general and probably a lot more too!
+
+I will be writing further blog posts on everything I’ve touched on in this post but this is just a quick introduction to me. If there’s anything else you’d like to know feel free to send me a message through my contact page or my socials (which can be found on the home screen).
